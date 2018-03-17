@@ -1,6 +1,13 @@
 # ManagerAppInRedux
 
-Version of Stephen Grider's employee project under Udemy's best selling "The Complete React Native and Redux Course". I remove dependency to Firebase to get to speed to redux and react native navigations. Recommended to newbies to explore react-native and redux easily.
+Version of Stephen Grider's employee project under Udemy's best selling "The Complete React Native and Redux Course". I remove dependency to Firebase to get to speed to redux and react native navigations quickly without having to setup accounts in Firebase. Recommended to newbies to explore react-native and redux easily. These include the following functionalities:
+  - Employee List ( Start with empty list )
+  - Create employee
+  - Open employee from List
+  - Edit employee
+  - Text message employee
+  - Delete employee with modal dialogue
+
 
 ## Getting Started
 
@@ -15,19 +22,16 @@ What things you need to install the software
 
 ### Installing
 
+  I'm using mac pro on macOS High Sierra 10.13.3. But should work on windows too because of it's minimal package dependencies.
+
   - clone the repository
   - yarn install
 
 
-## Running the tests
+## Running
 
   - Run in xcode
-  - Enter any email with password "password"
-  - Create employees
-  - Open employee
-  - Edit employee
-  - Delete employee
-  - Text employee
+  - Enter any email with password "password" to login
 
 
 ## Authors
@@ -42,6 +46,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Thanks for Stephen Grider's excellent course
