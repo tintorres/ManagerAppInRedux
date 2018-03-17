@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import { Card, CardSection, Input, Button } from './common';
 import { connect } from 'react-redux';
+import { Card, CardSection, Input, Button } from './common';
 import { emailChanged, passwordChanged, loginUser } from './actions';
 
 class LoginForm extends Component<{}> {
@@ -45,7 +45,7 @@ class LoginForm extends Component<{}> {
               <Input
                 secureTextEntry
                 label="Password"
-                placeholder="Password"
+                placeholder="password"
                 onChangeText={this.onPasswordChange.bind(this)}
                 value={this.props.password}
               />
